@@ -35,6 +35,6 @@ jobs:
             context: ./
             # Note: tags has to be all lower-case
             tags: |
-              ghcr.io/qbits-mx/dockerized-pruebita-goose:latest
+              ghcr.io/capacitacion-ultra/dockerized-pruebita-goose:latest
             # build on feature branches, push only on main branch
             push: ${{ github.ref == 'refs/heads/main' }}
